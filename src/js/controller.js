@@ -50,7 +50,6 @@ const controlSearchResults = async function () {
     await model.loadSearchResults(query);
 
     // 3) Render results
-    // resultView.render(model.state.search.results);
     resultView.render(model.getSearchResultPage());
 
     // 4) Render initial pagination button
@@ -73,7 +72,6 @@ const controlServings = function (newServings) {
   model.updateServings(newServings);
 
   // Update the recipe view
-  // recipeView.render(model.state.recipe);
   recipeView.update(model.state.recipe);
 };
 
@@ -113,7 +111,6 @@ const controlAddRecipe = async function (newRecipe) {
 
     // Change ID in URL
     window.history.pushState(null, '', `#${model.state.recipe.id}`);
-    // window.history.back();
 
     // Close form window
     setTimeout(function () {
