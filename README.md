@@ -6,19 +6,19 @@ Forkify is a recipe application with custom recipe uploads and bookmark function
 
 ### Features
 
-1. User can search for recipes with keyword and display result with pagination.
-2. Load the selected recipe details.
-3. User can update the number of servings then all ingredients also updated according to current number of servings.
-4. Bookmarking functionality displays list of all bookmarked recipes.
+1. User can search for recipes with keywords and the search results are displayed with pagination.
+2. Load the selected recipe details on the right side.
+3. User can update the number of servings then all ingredients are also updated according to current number of servings.
+4. Bookmarking function displays the list of all bookmarked recipes and user can easily check, add and delete bookmarked items.
 5. User can upload their own recipes.
-6. User's bookmarks and their own recipe can be preserved to local storage even though the user reload the page.
+6. User's bookmarks and their own recipe are preserved to local storage.
 
 ### What I've learned
 
 - Model–View–Controller Architecture
-- modules
-- npm
-- bundling, transpiling and polyfilling(parcel & babel)
+- javascript modules
+- npm, parcel and babel
+- bundling, transpiling and polyfilling
 
 ### Live demo link
 
@@ -39,10 +39,26 @@ Forkify is a recipe application with custom recipe uploads and bookmark function
 2. Go to the project directory
 
 ```bash
-  cd my-project
+  cd project-directory
 ```
 
-3. Double-click the index.html file
+3. Install forkify with npm
+
+```bash
+  npm install
+```
+
+4. Build forkify with npm
+
+```bash
+  npm run build
+```
+
+5. Start forkify with npm
+
+```bash
+  npm run start
+```
 
 ## Resource
 
