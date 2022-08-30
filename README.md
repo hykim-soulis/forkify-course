@@ -8,10 +8,10 @@ Forkify is a recipe application with custom recipe uploads and bookmark function
 
 1. User can search for recipes with keywords and the search results are displayed with pagination.
 2. Load the selected recipe details on the right side.
-3. User can update the number of servings then all ingredients are also updated according to current number of servings.
+3. User can update the number of servings and all ingredients are also updated according to the current number of servings.
 4. Bookmarking function displays the list of all bookmarked recipes and user can easily check, add and delete bookmarked items.
 5. User can upload their own recipes.
-6. User's bookmarks and their own recipes are preserved to local storage.
+6. User bookmarks and their own recipes are preserved to local storage.
 
 ### What I've learned
 
@@ -62,7 +62,7 @@ Forkify is a recipe application with custom recipe uploads and bookmark function
 
 ## Resource
 
-This project is javascript coding-along with the Udemy The Complete JavaScript Course 2022 by instructor Jonas Schmedtmann. HTML and sass files were provided by the instructor.
+This project is a javascript project done with the Udemy course: The Complete JavaScript Course 2022 by instructor Jonas Schmedtmann. HTML and sass files were provided by the instructor.
 
 The below link is the instructor's github address.
 
